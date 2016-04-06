@@ -3,7 +3,7 @@ Section: admin
 Priority: optional
 Maintainer: Marcin Kulisz (kuLa) <debian@kulisz.net>
 Uploaders: David Watson <dwatson@debian.org>
-Build-Depends: python3, python3-pip, debhelper (>= 9)
+Build-Depends: python3, debhelper (>= 9)
 Standards-Version: 3.9.6
 X-Python-Version: >= 3.0
 Homepage: https://github.com/Kurento/apt-transport-s3-kurento
@@ -13,7 +13,7 @@ Vcs-Browser: https://github.com/Kurento/apt-transport-s3-kurento
 Package: apt-transport-s3-kurento
 Architecture: all
 Conflicts: apt-transport-s3
-Depends: ${misc:Depends}, ${python:Depends}, apt, python-configobj
+Depends: ${misc:Depends}, ${python:Depends}, apt, python-configobj, python3-pip
 Description: APT transport for privately held AWS S3 repositories
  This package contains the APT AWS S3 transport. It makes possible to fetch
  files from repositories privately held on AWS S3.
