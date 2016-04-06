@@ -51,7 +51,7 @@ Token should be empty string.
 Install the .deb package from the releases page.  The bucket repo should be
 specified using an s3:// prefix, for example:
 
-`deb s3://aptbucketname.s3.amazonaws.com/repo/ trusty main contrib non-free`
+`deb s3://awszone.s3.amazonaws.com/aptbucketname/repo/ trusty main contrib non-free`
 
 ## Contribution
 If you want to contribute a patch via PR please create it against development
